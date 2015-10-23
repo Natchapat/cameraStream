@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\image-manipulations\openCVSampleimagemanipulations\build\intermediates\exploded-aar\image-manipulations\openCVLibrary300\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="766e3cdf3632d06df3f5e952365623877044c708">
+        <dex dex="C:\image-manipulations\openCVSampleimagemanipulations\build\intermediates\pre-dexed\debug\classes-def02848ebb6e180b95cd7059b17476237b4f1d5.jar" />
+    </item>
+
+</items>
