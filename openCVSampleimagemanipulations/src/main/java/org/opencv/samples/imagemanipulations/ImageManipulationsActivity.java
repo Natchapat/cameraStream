@@ -81,6 +81,7 @@ public class ImageManipulationsActivity extends Activity implements CvCameraView
         setContentView(R.layout.image_manipulations_surface_view);
 
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.image_manipulations_activity_surface_view);
+
         mOpenCvCameraView.setCvCameraViewListener(this);
     }
 
@@ -162,6 +163,7 @@ public class ImageManipulationsActivity extends Activity implements CvCameraView
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
         Mat rgba = inputFrame.rgba();
         Size sizeRgba = rgba.size();
+        Core.flip(rgba,rgba,1);
 
         int rows = (int) sizeRgba.height;
         int cols = (int) sizeRgba.width;
